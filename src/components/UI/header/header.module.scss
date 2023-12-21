@@ -1,6 +1,7 @@
 .Header {
     width: 100%;
     z-index: 10;
+    position: relative;
 
     &__top {
         display: flex;
@@ -52,10 +53,20 @@
     }
 
     &__bottom {
-        margin: 12px 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+
+        position: sticky;
+        top: 0px;
+        left: 0;
+        padding: 12px 0;
+        width: 100%;
+        background-color: #FFFFFF;
+        z-index: 9;
+
+        &__conten {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
         &__logo {
             width: 199px;

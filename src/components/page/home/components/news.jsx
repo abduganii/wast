@@ -35,7 +35,7 @@ export default function News() {
     }, [])
     return (
         <>
-            <Title className={"mb-[40px] "} classT={'title3 opacity-0'}>{t('News')}</Title>
+            <Title id={"News"} className={"mb-[40px] "} classT={'title3 opacity-0'}>{t('News')}</Title>
             <div className='flex gap-[32px] mb-[128px]  max-[870px]:mb-[50px] w-full overflow-x-scroll newhome'>
                 {
                     BlogsArray && BlogsArray?.map(e => (

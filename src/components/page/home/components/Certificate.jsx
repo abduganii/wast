@@ -26,7 +26,7 @@ export default function Certificate() {
     }, [])
     return (
         <>
-            <Title className={"mb-[40px] "} classT={'title4 opacity-0'}>{t('Certification')}</Title>
+            <Title id={"Certifications"} className={"mb-[40px] "} classT={'title4 opacity-0'}>{t('Certification')}</Title>
             <div className='flex  gap-[32px] mb-[128px] max-[870px]:mb-[50px] w-full overflow-x-scroll'>
                 {
                     CertificateArray && CertificateArray?.map(e => (

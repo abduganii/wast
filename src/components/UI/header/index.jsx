@@ -12,22 +12,27 @@ import cls from "./header.module.scss"
 export default function Header({ lang }) {
 
     return (
-        <header className={cls.Header}>
-            <Container>
-                <div className={`${cls.Header__top} min-[900px]:flex hidden`}>
-                    <div className={cls.Header__icons}>
-                        <a><Telegram /></a>
-                        <a><Instagram /></a>
-                        <a><TikTok /></a>
+        <>
+            <header className={cls.Header}>
+                <Container>
+                    <div className={`${cls.Header__top} min-[900px]:flex hidden`}>
+                        <div className={cls.Header__icons}>
+                            <a><Telegram /></a>
+                            <a><Instagram /></a>
+                            <a><TikTok /></a>
+                        </div>
+
+                        <div className={cls.Header__set}>
+                            <Lang />
+                            <a className={cls.Header__tel}><TelIcon /> +998 50 505 14 33</a>
+                        </div>
                     </div>
 
-                    <div className={cls.Header__set}>
-                        <Lang />
-                        <a className={cls.Header__tel}><TelIcon /> +998 50 505 14 33</a>
-                    </div>
-                </div>
 
-                <div className={cls.Header__bottom}>
+                </Container>
+            </header>
+            <div className={cls.Header__bottom}>
+                <Container className={cls.Header__bottom__conten}>
                     <Link href={'/'} className={cls.Header__bottom__logo}>
                         <LogoIcon />
                     </Link>
@@ -40,9 +45,8 @@ export default function Header({ lang }) {
                             <a><TikTok /></a>
                         </div>
                     </div>
-
-                </div>
-            </Container>
-        </header>
+                </Container>
+            </div>
+        </>
     )
 }

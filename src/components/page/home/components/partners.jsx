@@ -46,7 +46,7 @@ export default function Partners() {
     }, [])
     return (
         <>
-            <Title className={"mb-[40px]"} classT={'title5 opacity-0'}>{t('Partners')}</Title>
+            <Title id={"Partners"} className={"mb-[40px]"} classT={'title5 opacity-0'}>{t('Partners')}</Title>
             <div className='flex flex-wrap gap-[32px] mb-[128px]' ref={wrappRef}>
 
                 <div className="abaut__image3 w-full">

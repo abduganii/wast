@@ -37,7 +37,7 @@ export default function HowWork() {
     }, [])
     return (
         <>
-            <Title classT={"title1"} className={"mb-[40px] max-[870px]:mb-[30px] max-[500px]:mb-[20px]"}>{t("HowWork")}</Title>
+            <Title id='work' classT={"title1"} className={"mb-[40px] max-[870px]:mb-[30px] max-[500px]:mb-[20px]"}>{t("HowWork")}</Title>
             <div className='flex flex-wrap justify-center gap-[32px] mb-[128px] workHome'>
                 {
                     ServiceArray && ServiceArray?.map(e => (

@@ -58,7 +58,7 @@ export default function ContactUs() {
         }, "<")
     }, [])
     return (
-        <div className='flex gap-[32px] mb-[128px] max-[950px]:flex-wrap max-[950px]:justify-center CantactHome'>
+        <div id={"Contact"} className='flex gap-[32px] mb-[128px] max-[950px]:flex-wrap max-[950px]:justify-center CantactHome'>
             <div className='w-full max-[950px]:py-[20px]'>
                 <Title className='mb-[48px]' classT={'title6 opacity-0'}>{t('Contact')}</Title>
                 <form className='flex flex-wrap gap-[32px]'>

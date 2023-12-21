@@ -11,9 +11,10 @@ import i18nConfig from '../../../../i18nConfig';
 import { LangIcon } from '../icon';
 
 
+
 export default function Lang() {
     const { i18n } = useTranslation();
-
+    const { t } = useTranslation(['home'])
     const currentLocale = i18n.language;
     const router = useRouter();
     const currentPathname = usePathname();
@@ -46,13 +47,13 @@ export default function Lang() {
         <div className={cls.Lang}>
             <div className={cls.Lang__wrap}>
                 <LangIcon />
-
+                <p className={cls.Lang__text}>{t('langHed')}</p>
             </div>
             <ul className={cls.Lang__box} onClick={handleChange}>
                 <li value={'uz'} >o'zbek</li>
                 <li value={'ru'}>русский</li>
                 <li value={'en'}>english</li>
             </ul>
-        </div>
+        </div >
     )
 }

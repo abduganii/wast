@@ -8,7 +8,7 @@ export default function NavBar({ lang, className }) {
         <div className={`${cls.NavBar} ${className && className}`}>
             {
                 Routes?.map((e) => (
-                    <Link className={cls.NavBar__text} key={e?.id} href={e?.link} >
+                    <Link className={cls.NavBar__text} key={e?.id} href={e.idText}  >
                         {e?.text?.[lang]}
                     </Link>
                 ))
