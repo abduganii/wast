@@ -1,0 +1,14 @@
+.CertificateCard {
+    width: calc((100% - 96px) / 4);
+    min-width: 160px;
+
+    &__text {
+        color: #111;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        margin-top: 16px;
+    }
+}

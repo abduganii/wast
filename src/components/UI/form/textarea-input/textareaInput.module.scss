@@ -1,0 +1,41 @@
+.TextAreaInput {
+    width: 100%;
+
+
+    &__label {
+        color: #444;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 6px;
+    }
+
+    &__textarea {
+        padding: 10px 14px;
+        border: 1px solid #EAEAEA;
+        background: #FFF;
+        width: 100%;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+        outline: none;
+        color: black;
+        text-overflow: ellipsis;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+        &::placeholder {
+            color: #888;
+            text-overflow: ellipsis;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+}

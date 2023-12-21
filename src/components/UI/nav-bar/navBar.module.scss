@@ -1,0 +1,27 @@
+.NavBar {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+
+    @media screen and (max-width: 1020px) {
+        gap: 10px;
+    }
+
+    &__text {
+        color: #111;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+
+        @media screen and (max-width: 1020px) {
+            font-size: 14px;
+        }
+
+        &:hover {
+            color: #00922F;
+        }
+    }
+}

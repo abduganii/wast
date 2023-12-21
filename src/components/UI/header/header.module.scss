@@ -1,0 +1,73 @@
+.Header {
+    width: 100%;
+    z-index: 10;
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 22px;
+        padding-bottom: 16px;
+        width: 100%;
+        border-bottom: 1px solid #EAEAEA;
+        z-index: 10;
+    }
+
+    &__icons {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        @media screen and (max-width: 600px) {
+            gap: 10px;
+
+            a {
+                width: 20px;
+
+                svg {
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
+    &__set {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        z-index: 10;
+    }
+
+    &__tel {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: #111;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    &__bottom {
+        margin: 12px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__logo {
+            width: 199px;
+
+            @media screen and (max-width: 600px) {
+                width: 140px;
+            }
+
+            svg {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+.Lang {
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+        .Lang__box {
+            display: block;
+        }
+    }
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        color: #111;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+
+        @media screen and (max-width: 600px) {
+            font-size: 15px;
+
+            line-height: 18px;
+        }
+    }
+
+    &__box {
+        display: none;
+        position: absolute;
+        top: 25px;
+        left: -20px;
+        width: 140px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0px 1px 0px 2px rgb(0, 0, 0, .02);
+        z-index: 10000 !important;
+
+        li {
+            width: 100%;
+            z-index: 100;
+            text-align: center;
+            font-family: 'Montserrat';
+            color: #111;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            padding: 5px 0;
+
+            &:hover {
+                color: #00922F;
+            }
+        }
+    }
+}

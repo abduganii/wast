@@ -1,0 +1,20 @@
+.Title {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+
+    @media screen and (max-width: 870px) {
+        font-size: 35px;
+    }
+
+    @media screen and (max-width: 550px) {
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: 450px) {
+        font-size: 27px;
+    }
+}
