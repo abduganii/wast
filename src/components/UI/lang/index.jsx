@@ -14,7 +14,7 @@ import { LangIcon } from '../icon';
 
 export default function Lang() {
     const { i18n } = useTranslation();
-    const { t } = useTranslation(['home'])
+    // const { t } = useTranslation(['home'])
     const currentLocale = i18n.language;
     const router = useRouter();
     const currentPathname = usePathname();
@@ -47,7 +47,7 @@ export default function Lang() {
         <div className={cls.Lang}>
             <div className={cls.Lang__wrap}>
                 <LangIcon />
-                <p className={cls.Lang__text}>{t('langHed')}</p>
+                <p className={cls.Lang__text}>lang</p>
             </div>
             <ul className={cls.Lang__box} onClick={handleChange}>
                 <li value={'uz'} >o'zbek</li>
