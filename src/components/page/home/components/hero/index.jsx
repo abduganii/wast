@@ -28,6 +28,12 @@ export default function Hero() {
                 toggleActions: "restart none none reset",
             }
         })
+        gsap.fromTo('.animation', { opacity: 0 }, {
+            opacity: 1, scrollTrigger: {
+                trigger: '.home',
+                toggleActions: "restart none none reset",
+            }
+        })
 
         gsap.fromTo('.btn__content', { opacity: 0, scale: 0.3, }, {
             opacity: 1, duration: 1, delay: .8, scale: 1, scrollTrigger: {
@@ -46,7 +52,7 @@ export default function Hero() {
                 <p className={`${cls.Hero__text} text__content opacity-0`}>{t('heroText')}</p>
                 <GreenBtn className={'btn__content opacity-0'}>{t('heroBtn')}</GreenBtn>
             </div>
-            <div className={cls.Hero__animation}>
+            <div className={`${cls.Hero__animation} animation opacity-0`}>
                 <div className={cls.Hero__animation__line}></div>
                 <div className={cls.Hero__animation__line}></div>
                 <div className={cls.Hero__animation__line}></div>
