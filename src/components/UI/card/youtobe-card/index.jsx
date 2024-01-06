@@ -1,7 +1,6 @@
 import Image from "next/image";
 import cls from "./blog.module.scss";
-import { DateIcons } from "../../icon";
-export default function BlogsCard({
+export default function YouTobeCard({
   img,
   className,
   title,
@@ -23,9 +22,6 @@ export default function BlogsCard({
       />
       <h3 className={cls.BlogsCard__title}>{title}</h3>
       <p className={cls.BlogsCard__text}>{text}</p>
-      <p className={cls.BlogsCard__date}>
-        <DateIcons /> {date}
-      </p>
     </div>
   );
 }

@@ -1,53 +1,33 @@
-'use client'
-import BlogsCard from "@/components/UI/card/blog-card";
+"use client";
+import Text from "@/components/UI/text";
 import Title from "@/components/UI/title";
-import { BlogsArray } from "../data";
-import { useEffect } from "react";
-import ScrollTrigger from 'gsap/dist/ScrollTrigger';
-import gsap from "gsap";
+import Image from "next/image";
+import React from "react";
 import { useTranslation } from "react-i18next";
-export default function News() {
-    const { t } = useTranslation(['home']);
-    gsap.registerPlugin(ScrollTrigger)
-    useEffect(() => {
-        gsap.fromTo('.title3', {
-            y: 100,
-            stagger: 0.2,
-            opacity: 0,
-        }, {
-            duration: 1, delay: 0, y: 0, opacity: 1, stagger: 0.07, ease: "power2.out", scrollTrigger: {
-                trigger: '.newhome',
-                toggleActions: "restart none none reset",
 
-            }
-        })
-        gsap.fromTo('.new', {
-            y: 100,
-            stagger: 0.2,
-            opacity: 0,
-        }, {
-            duration: 1, delay: .4, y: 0, opacity: 1, stagger: 0.3, ease: "power2.out", scrollTrigger: {
-                trigger: '.newhome',
-                toggleActions: "restart none none reset",
+const News = () => {
+  const { t } = useTranslation(["home"]);
+  return (
+    <>
+      <Title id={"News"} className={"mb-[40px] "} classT={"title3 opacity-0"}>
+        {t("News")}
+      </Title>
 
-            }
-        })
-    }, [])
-    return (
-        <>
-            <Title id={"News"} className={"mb-[40px] "} classT={'title3 opacity-0'}>{t('News')}</Title>
-            <div className='flex gap-[32px] mb-[128px]  max-[870px]:mb-[50px] w-full overflow-x-scroll newhome'>
-                {
-                    BlogsArray && BlogsArray?.map(e => (
-                        <BlogsCard
-                            className={"new opacity-0"}
-                            img={e?.image}
-                            title={e?.title}
-                            text={e?.text}
-                        />
-                    ))
-                }
-            </div>
-        </>
-    )
-}
+      <div className="flex items-center gap-[32px] mb-[100px]">
+        <div className="w-full max-w-[564px]">
+          <h3 className="text-3xl font-semibold w-full mb-[15px]">
+            You can follow our latest news on our Instagram page.
+          </h3>
+          <Text>
+            And regroup six net running feature hour responsible driver's
+            asserts. Invite deploy turn assassin red-flag ourselves banner
+            strategy today.
+          </Text>
+        </div>
+        <Image src={"/image/insta.png"} width={564} height={581} />
+      </div>
+    </>
+  );
+};
+
+export default News;

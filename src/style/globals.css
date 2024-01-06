@@ -1,6 +1,5 @@
 @import url("../../public/fonts/fonts.css");
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,9 +22,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat';
-  background: #FFF;
-
+  font-family: "Montserrat";
+  background: #fff;
 }
 
 a {
@@ -51,23 +49,26 @@ button {
   cursor: pointer;
 }
 
-
 .overflow-x-scroll::-webkit-scrollbar {
   width: 0px;
 }
 
-.abaut__image{
+.abaut__image {
   clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
 }
 
-.abaut__image2{
+.abaut__image2 {
   clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
 }
 
-.abaut__image3{
+.abaut__image3 {
   clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
 }
 
-.abaut__image6{
+.abaut__image6 {
+  clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+}
+
+.abaut__image7 {
   clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
 }

@@ -1,19 +1,17 @@
 "use client";
-import BlogsCard from "@/components/UI/card/blog-card";
 import Title from "@/components/UI/title";
 import { BlogsArray } from "../data";
 import { useEffect } from "react";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import gsap from "gsap";
 import { useTranslation } from "react-i18next";
-
-export default function Blog() {
-  gsap.registerPlugin(ScrollTrigger);
-
+import YouTobeCard from "@/components/UI/card/youtobe-card";
+export default function YouTobe() {
   const { t } = useTranslation(["home"]);
+  gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     gsap.fromTo(
-      ".title2",
+      ".title3",
       {
         y: 100,
         stagger: 0.2,
@@ -27,13 +25,13 @@ export default function Blog() {
         stagger: 0.07,
         ease: "power2.out",
         scrollTrigger: {
-          trigger: ".bloghome",
+          trigger: ".newhome",
           toggleActions: "restart none none reset",
         },
       }
     );
     gsap.fromTo(
-      ".blog",
+      ".new",
       {
         y: 100,
         stagger: 0.2,
@@ -47,7 +45,7 @@ export default function Blog() {
         stagger: 0.3,
         ease: "power2.out",
         scrollTrigger: {
-          trigger: ".bloghome",
+          trigger: ".newhome",
           toggleActions: "restart none none reset",
         },
       }
@@ -55,19 +53,22 @@ export default function Blog() {
   }, []);
   return (
     <>
-      <Title id="eko" className={"mb-[40px] "} classT={"title2 opacity-0"}>
-        {t("Eco")}
+      <Title
+        id={"youtobe"}
+        className={"mb-[40px] "}
+        classT={"title3 opacity-0"}
+      >
+        {t("youtobe")}
       </Title>
-      <div className="flex gap-[32px] mb-[128px] max-[870px]:mb-[50px]  w-full overflow-x-scroll bloghome">
+
+      <div className="flex gap-[32px] mb-[128px]  max-[870px]:mb-[50px] w-full overflow-x-scroll newhome">
         {BlogsArray &&
           BlogsArray?.map((e) => (
-            <BlogsCard
-              className={"blog opacity-0"}
+            <YouTobeCard
+              className={"new opacity-0"}
               img={e?.image}
-              key={e?.id}
               title={e?.title}
               text={e?.text}
-              date={"13.03.2023"}
             />
           ))}
       </div>
