@@ -3,19 +3,19 @@ export const Routes = [
         id: 1,
         text:{ru: "О нас",uz:"Biz haqimizda",en:"About us"},
         link:'/',
-        idText:'#aboutus'
+        idText:'/#aboutus'
     },
     {
         id: 2,
         text:{ru: "Как мы работаем",uz:"Qanday ishlaymiz",en:"How we are working"},
         link:'/',
-        idText:'#work'
+        idText:'/#work'
     },
     {
         id: 3,
         text:{ru: "Эко-блог",uz:"Eco-blog",en:"Eco-blog"},
         link:'/',
-        idText:'#eko'
+        idText:'/#eko'
     },
     {
         id: 4,
@@ -27,18 +27,18 @@ export const Routes = [
         id: 5,
         text:{ru: "Партнеры",uz:"Hamkorlar",en:"Partners"},
         link:'/',
-        idText:'#Partners'
+        idText:'/#Partners'
     },
     {
         id: 6,
         text:{ru: "Новости",uz:"Yangiliklar",en:"News"},
         link:'/',
-        idText:'#News'
+        idText:'/#News'
     },
     {
         id: 7,
         text:{ru: "Контакт",uz:"Kontakt",en:"Contact"},
         link:'/',
-        idText:'#Contact'
+        idText:'/#Contact'
     }
 ]

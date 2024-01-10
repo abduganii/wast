@@ -75,30 +75,7 @@ export const YouTobeArray = [
     title: "Leverage hiring forward",
     text: "You get additional income, and waste - new life!",
   },
-  {
-    id: 6,
-    image: "/blogs/Artboard4.png",
-    title: "Leverage hiring forward",
-    text: "You get additional income, and waste - new life!",
-  },
-  {
-    id: 7,
-    image: "/blogs/Artboard4.png",
-    title: "Leverage hiring forward",
-    text: "You get additional income, and waste - new life!",
-  },
-  {
-    id: 8,
-    image: "/blogs/Artboard4.png",
-    title: "Leverage hiring forward",
-    text: "You get additional income, and waste - new life!",
-  },
-  {
-    id: 9,
-    image: "/blogs/Artboard4.png",
-    title: "Leverage hiring forward",
-    text: "You get additional income, and waste - new life!",
-  },
+
 ];
 
 export const CertificateArray = [

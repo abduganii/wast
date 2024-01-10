@@ -13,13 +13,14 @@ export default function YouTobeCard({
       className={`${cls.BlogsCard} ${className && className} w-full`}
       {...other}
     >
-      <Image
-        className={`${cls.BlogsCard__img} `}
-        width={266}
-        height={177}
-        alt="img"
-        src={img}
-      />
+
+      <iframe
+        width="266"
+        height="177"
+        src="https://www.youtube.com/embed/puLG1Yox-vs?si=rlqPwDDeIsQzmZb-?controls=0&showinfo=0&modestbranding=0"
+        frameBorder="0"
+        allowfullscreen
+      ></iframe>
       <h3 className={cls.BlogsCard__title}>{title}</h3>
       <p className={cls.BlogsCard__text}>{text}</p>
     </div>

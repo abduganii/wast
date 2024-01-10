@@ -94,7 +94,7 @@ export const BlogsArray = [
     },
     {
       id: 5,
-      image: "/blogs/Artboard4.png",
+      image: "/blogs/Artboard5.png",
       title: "Ozon qatlamining yemirilishi: holati va yechimlari",
       text: `Ozon qatlami stratosferadagi ultrabinafsha nurlanishni o'ziga singdira oladigan katta miqdordagi ozon (O₃) molekulasini o'z ichiga olgan hududdir. Bu qatlam teri saratoni, ko'zning shikastlanishi va boshqa sog'liq muammolariga olib kelishi mumkin bo'lgan zararli UV nurlaridan tirik organizmlarni himoya qilishda asosiy rol o'ynaydi.
       Yerning ozon qatlami sayyorani quyoshning zararli ultrabinafsha (UV) nurlanishidan himoya qilishda muhim rol o'ynaydi. Atmosfera ozonining 90% ga yaqini stratosferada, asosan Yer yuzasidan 20-40 km balandlikda joylashgan. Olimlarning hisob-kitoblariga ko‘ra, 2060 yilga borib ozon qatlamidagi teshik yo‘qoladi. Biroq, to'liq tiklanish haqida gapirish juda qiyin, chunki atmosferaning o'zi ozon qatlami vayron bo'lmagan paytdagidan juda farq qiladi. Vaholanki, boshqa ko‘plab mamlakatlarda bo‘lgani kabi O‘zbekistonda ham ozon qatlamining yemirilishi jiddiy ekologik muammo hisoblanadi.
@@ -110,7 +110,7 @@ export const BlogsArray = [
     },
     {
       id: 6,
-      image: "/blogs/Artboard4.png",
+      image: "/blogs/Artboard6.png",
       title: "O'zbekistonda global isish: ta'siri, oqibatlari va moslashish choralari",
       text: `Global isish XXI asrda insoniyat oldida turgan eng jiddiy muammolardan biridir. Uning ta’siri Markaziy Osiyoning markazida joylashgan O‘zbekistonda ham sezilmoqda. Ushbu maqolada biz global isishning O‘zbekistonga ta’siri, uning oqibatlari va iqlim o‘zgarishiga moslashish bo‘yicha ko‘rilayotgan chora-tadbirlarni ko‘rib chiqamiz.
       Global isish atmosferadagi karbonat angidrid (CO₂) va metan (CH₄) kabi issiqxona gazlari kontsentratsiyasining oshishi natijasida yuzaga keladi, bu esa issiqxona effektini oshiradi va Yer yuzasida haroratni oshiradi. Bu jarayon butun dunyodagi iqlim va atrof-muhitga kuchli ta'sir ko'rsatadi.
@@ -132,7 +132,7 @@ export const BlogsArray = [
     },
     {
       id: 7,
-      image: "/blogs/Artboard4.png",
+      image: "/blogs/Artboard7.png",
       title: "O'zbekistonda toza suv tanqisligi: muammoni hal qilishda plastmassani qayta ishlashning o'rni",
       text: `
       Ko'pgina mamlakatlar suvning ifloslanishi muammosiga qarshi kurashish va xom ashyodan foydalanishni kamaytirish uchun plastmassani qayta ishlashdan muvaffaqiyatli foydalanmoqda. Birlashgan Millatlar Tashkilotining ma'lumotlariga ko'ra, 2000-yillarning boshlarida 1,2 milliarddan ortiq odam doimiy toza suv tanqisligi sharoitida yashaydi va 2 milliardga yaqin kishi muntazam ravishda azoblanadi. 21-asrning o'rtalariga kelib, doimiy suv tanqisligi bilan yashaydigan odamlar soni 4 milliard kishidan oshadi. Toza suv tanqisligi nafaqat O‘zbekiston fuqarolari, balki butun Markaziy Osiyo mintaqasi duch kelayotgan global ekologik muammolardan biridir. Ushbu maqolada biz O‘zbekistonda toza suv tanqisligi muammosi va bu muammoni hal qilishda plastmassani qayta ishlashning rolini ko‘rib chiqamiz.
@@ -156,7 +156,7 @@ export const BlogsArray = [
     },
     {
       id: 8,
-      image: "/blogs/Artboard4.png",
+      image: "/blogs/Artboard8.png",
       title: "O‘simlik va hayvonot dunyosini saqlash muammosi",
       text: `Sayyoramizning flora va faunasi Yerni noyob qiladigan ajoyib boylikdir. Biroq, biz hozirda ushbu biologik xilma-xil go'zallikni saqlashda jiddiy muammolarga duch kelamiz. Ushbu maqolada biz o'simlik va hayvonot dunyosini saqlash muhimligini, ularning yo'q bo'lib ketishining oldini olishga yordam beradigan asosiy tahdidlar va choralarni ko'rib chiqamiz.
       O'simlik va hayvonot dunyosi nafaqat tabiatning bir qismi, balki ular bizning hayotimiz va ekotizimimizda muhim rol o'ynaydi. Ular bizni oziq-ovqat, dori-darmon, kiyim-kechak va boshpana uchun materiallar bilan ta'minlaydi. Ular atrof-muhit salomatligini qo'llab-quvvatlaydi va iqlimni tartibga solishga yordam beradi. O'simlik va hayvonot dunyosi biz uchun ilhom manbai va madaniy merosning muhim elementi bo'lib xizmat qiladi.
@@ -211,7 +211,7 @@ export const BlogsArray = [
     },
     {
       id: 9,
-      image: "/blogs/Artboard4.png",
+      image: "/blogs/Artboard9.png",
       title: "O‘zbekistonda chiqindilarni tartibga solish: qonunchilik va ekologik javobgarlik",
       text: `Chiqindilarni boshqarish va tartibga solish zamonaviy ekologiya va barqaror rivojlanishning muhim jihati hisoblanadi. Jahon banki ma'lumotlariga ko'ra, har yili insoniyat 2 milliard tonnadan ko'proq qattiq maishiy chiqindilarni ishlab chiqaradi. 2050 yilga borib esa bu ko‘rsatkich 3,4 milliard tonnagacha o‘sishi bilan tahdid qilmoqda.
       Mamlakatimizda chiqindilarni to‘plash, qayta ishlash va utilizatsiya qilishni tartibga solish, ekologik javobgarlikni belgilashda qonunchilik muhim o‘rin tutadi. Ushbu maqolada O‘zbekistonda chiqindilarni samarali boshqarish bo‘yicha ko‘rilayotgan qonunchilik bazasi va chora-tadbirlarini ko‘rib chiqamiz.

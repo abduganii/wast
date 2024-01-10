@@ -60,7 +60,7 @@ export default function Blog() {
       <Title id="eko" className={"mb-[40px] "} classT={"title2 opacity-0"}>
         {t("Eco")}
       </Title>
-      <div className="flex gap-[32px] mb-[128px] max-[870px]:mb-[50px]  w-full overflow-x-scroll bloghome">
+      <div className="flex gap-[32px] mb-[128px] max-[870px]:mb-[50px]  w-full overflow-x-scroll overflow-y-clip bloghome">
         {BlogsArray &&
           BlogsArray?.map((e) => (
             <BlogsCard
