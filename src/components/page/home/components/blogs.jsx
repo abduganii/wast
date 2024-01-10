@@ -1,11 +1,12 @@
 "use client";
 import BlogsCard from "@/components/UI/card/blog-card";
 import Title from "@/components/UI/title";
-import { BlogsArray } from "../data";
+import { BlogsArray } from "../../../../data";
 import { useEffect } from "react";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import gsap from "gsap";
 import { useTranslation } from "react-i18next";
+import { useRouter } from "next/navigation";
 
 export default function Blog() {
   gsap.registerPlugin(ScrollTrigger);
@@ -53,6 +54,7 @@ export default function Blog() {
       }
     );
   }, []);
+  const router = useRouter()
   return (
     <>
       <Title id="eko" className={"mb-[40px] "} classT={"title2 opacity-0"}>
@@ -67,6 +69,7 @@ export default function Blog() {
               key={e?.id}
               title={e?.title}
               text={e?.text}
+              onClick={() => router.push(`/blogs/${e?.id}`)}
               date={"13.03.2023"}
             />
           ))}

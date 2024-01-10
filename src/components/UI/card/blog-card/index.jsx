@@ -7,11 +7,13 @@ export default function BlogsCard({
   title,
   text,
   date,
+  onClick,
   ...other
 }) {
   return (
     <div
       className={`${cls.BlogsCard} ${className && className} w-full`}
+      onClick={onClick}
       {...other}
     >
       <Image
@@ -21,8 +23,8 @@ export default function BlogsCard({
         alt="img"
         src={img}
       />
-      <h3 className={cls.BlogsCard__title}>{title}</h3>
-      <p className={cls.BlogsCard__text}>{text}</p>
+      <h3 className={`${cls.BlogsCard__title} line-clamp-2`}>{title}</h3>
+      <p className={`${cls.BlogsCard__text} line-clamp-2`} >{text}</p>
       <p className={cls.BlogsCard__date}>
         <DateIcons /> {date}
       </p>

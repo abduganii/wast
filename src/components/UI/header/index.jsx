@@ -50,9 +50,8 @@ export default function Header({ lang }) {
         </Container>
       </header>
       <div
-        className={`${cls.Header__bottom} ${
-          windowHeight > 0 && "shadow-xl z-10"
-        } `}
+        className={`${cls.Header__bottom} ${windowHeight > 0 && "shadow-xl z-20"
+          } `}
       >
         <Container className={cls.Header__bottom__conten}>
           <Link href={"/"} className={cls.Header__bottom__logo}>

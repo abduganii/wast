@@ -1,4 +1,5 @@
 "use client";
+import InstagramWidget from "@/components/UI/card/instagram-card";
 import Text from "@/components/UI/text";
 import Title from "@/components/UI/title";
 import Image from "next/image";
@@ -13,7 +14,7 @@ const News = () => {
         {t("News")}
       </Title>
 
-      <div className="flex items-center gap-[32px] mb-[100px]">
+      <div className="flex items-center gap-[32px] mb-[100px] flex-wrap sm:flex-nowrap">
         <div className="w-full max-w-[564px]">
           <h3 className="text-3xl font-semibold w-full mb-[15px]">
             You can follow our latest news on our Instagram page.
@@ -24,7 +25,10 @@ const News = () => {
             strategy today.
           </Text>
         </div>
-        <Image src={"/image/insta.png"} width={564} height={581} />
+        <div className="w-full max-w-[564px]">
+          {/* <Image src={"/image/insta.png"} width={564} height={581} /> */}
+          <InstagramWidget />
+        </div>
       </div>
     </>
   );

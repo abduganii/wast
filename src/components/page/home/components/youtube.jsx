@@ -1,6 +1,6 @@
 "use client";
 import Title from "@/components/UI/title";
-import { BlogsArray } from "../data";
+import { YouTobeArray } from "../data";
 import { useEffect } from "react";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import gsap from "gsap";
@@ -62,8 +62,8 @@ export default function YouTobe() {
       </Title>
 
       <div className="flex gap-[32px] mb-[128px]  max-[870px]:mb-[50px] w-full overflow-x-scroll newhome">
-        {BlogsArray &&
-          BlogsArray?.map((e) => (
+        {YouTobeArray &&
+          YouTobeArray?.map((e) => (
             <YouTobeCard
               className={"new opacity-0"}
               img={e?.image}

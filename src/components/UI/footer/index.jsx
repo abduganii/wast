@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Link from "next/link"
 import Container from "../container"
 import { LogoIcon } from "../icon"
@@ -43,7 +43,7 @@ export default function Footer({ lang }) {
                             <Link className={cls.Footer__left__logo} href={'/'}>
                                 <LogoIcon />
                             </Link>
-                            <p className={cls.Footer__text}>{t('footer')}</p>
+                            <p className={cls.Footer__text}>{t('Wasstext')}</p>
                         </div>
                         <p className={cls.Footer__Wasteless}>© Wasteless 2023</p>
                     </div>

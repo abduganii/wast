@@ -44,28 +44,58 @@ export const ServiceArray = [
     text: "The courier takes the waste for recycling and closes the application",
   },
 ];
-export const BlogsArray = [
+export const YouTobeArray = [
   {
     id: 1,
-    image: "/image/blog.png",
+    image: "/blogs/Artboard1.png",
     title: "Leverage hiring forward",
     text: "You sort waste (plastic, paper, glass)",
   },
   {
     id: 2,
-    image: "/image/blog.png",
+    image: "/blogs/Artboard2.png",
     title: "Leverage hiring forward",
     text: "Submit your application through the application",
   },
   {
     id: 3,
-    image: "/image/blog.png",
+    image: "/blogs/Artboard3.png",
     title: "Leverage hiring forward",
     text: "The courier arrives at the appointed time",
   },
   {
     id: 4,
-    image: "/image/blog.png",
+    image: "/blogs/Artboard4.png",
+    title: "Leverage hiring forward",
+    text: "You get additional income, and waste - new life!",
+  },
+  {
+    id: 5,
+    image: "/blogs/Artboard4.png",
+    title: "Leverage hiring forward",
+    text: "You get additional income, and waste - new life!",
+  },
+  {
+    id: 6,
+    image: "/blogs/Artboard4.png",
+    title: "Leverage hiring forward",
+    text: "You get additional income, and waste - new life!",
+  },
+  {
+    id: 7,
+    image: "/blogs/Artboard4.png",
+    title: "Leverage hiring forward",
+    text: "You get additional income, and waste - new life!",
+  },
+  {
+    id: 8,
+    image: "/blogs/Artboard4.png",
+    title: "Leverage hiring forward",
+    text: "You get additional income, and waste - new life!",
+  },
+  {
+    id: 9,
+    image: "/blogs/Artboard4.png",
     title: "Leverage hiring forward",
     text: "You get additional income, and waste - new life!",
   },

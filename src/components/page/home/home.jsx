@@ -10,6 +10,7 @@ import ContactUs from "./components/contact-us";
 import RecycleBox from "./components/recyclebox";
 import YouTobe from "./components/youtube";
 import News from "./components/news";
+import WorkProgress from "./components/work-progress";
 
 export default async function HomePage({ lang }) {
   return (
@@ -21,7 +22,9 @@ export default async function HomePage({ lang }) {
       <RecycleBox />
       <Container>
         <Partners />
-        <h1>how work</h1>
+      </Container>
+      <WorkProgress />
+      <Container>
         <YouTobe />
       </Container>
       <Recycle />
