@@ -7,10 +7,12 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useEffect } from "react";
 import initTranslations from "@/app/i18n";
 import { useTranslation } from "react-i18next";
+import { useRouter } from "next/navigation";
 
 export default function Hero() {
 
     const { t } = useTranslation(['home']);
+    const router = useRouter()
     gsap.registerPlugin(ScrollTrigger)
 
     useEffect(() => {
@@ -50,7 +52,7 @@ export default function Hero() {
             <div className={cls.Hero__content}>
                 <h1 className={`${cls.Hero__title} text__content opacity-0`}>{t('heroTitle')}</h1>
                 <p className={`${cls.Hero__text} text__content opacity-0`}>{t('heroText')}</p>
-                <GreenBtn className={'btn__content opacity-0'}>{t('heroBtn')}</GreenBtn>
+                <GreenBtn onClick={() => router.push('/#Contact')} className={'btn__content opacity-0'}>{t('heroBtn')}</GreenBtn>
             </div>
             <div className={`${cls.Hero__animation} animation opacity-0`}>
                 <div className={cls.Hero__animation__line}></div>

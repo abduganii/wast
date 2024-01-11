@@ -14,15 +14,10 @@ export default function YouTobeCard({
       {...other}
     >
 
-      <iframe
-        width="266"
-        height="177"
-        src="https://www.youtube.com/embed/puLG1Yox-vs?si=rlqPwDDeIsQzmZb-?controls=0&showinfo=0&modestbranding=0"
-        frameBorder="0"
-        allowfullscreen
-      ></iframe>
+      <iframe width="266"
+        height="177" src={img}></iframe>
       <h3 className={cls.BlogsCard__title}>{title}</h3>
-      <p className={cls.BlogsCard__text}>{text}</p>
-    </div>
+      {/* <p className={cls.BlogsCard__text}>{text}</p> */}
+    </div >
   );
 }

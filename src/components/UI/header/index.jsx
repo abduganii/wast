@@ -2,6 +2,7 @@
 import initTranslations from "@/app/i18n";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import Container from "../container";
 import { Instagram, LogoIcon, Telegram, TelIcon, TikTok } from "../icon";
 import Lang from "../lang";
@@ -9,6 +10,7 @@ import NavBar from "../nav-bar";
 import cls from "./header.module.scss";
 
 export default function Header({ lang }) {
+  const { t } = useTranslation(['home']);
   const [windowHeight, setWindowHeight] = useState(
     typeof window !== "undefined" ? window.scrollY : 0
   );

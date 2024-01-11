@@ -48,8 +48,8 @@ export default function Footer({ lang }) {
                         <p className={cls.Footer__Wasteless}>© Wasteless 2023</p>
                     </div>
                     <ul className={cls.Footer__navbar}>
-                        {Routes?.map(e => (
-                            <Link className={cls.Footer__navbar__link} href='/'>{e?.text?.[lang]}</Link>
+                        {Routes?.map((e, i) => (
+                            <Link key={i} className={cls.Footer__navbar__link} href='/'>{e?.text?.[lang]}</Link>
                         ))}
                     </ul>
 

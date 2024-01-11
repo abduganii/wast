@@ -21,7 +21,7 @@ export const Routes = [
         id: 4,
         text:{ru: "Сертификаты",uz:"Sertifikatlar",en:"Certifications"},
         link:'/',
-        idText:'#Certifications'
+        idText:'/#Certifications'
     },
     {
         id: 5,

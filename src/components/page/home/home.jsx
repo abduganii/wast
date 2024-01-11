@@ -23,7 +23,7 @@ export default async function HomePage({ lang }) {
       <Container>
         <Partners />
       </Container>
-      <WorkProgress />
+      <WorkProgress lang={lang} />
       <Container>
         <YouTobe />
       </Container>

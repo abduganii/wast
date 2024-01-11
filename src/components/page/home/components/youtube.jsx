@@ -65,6 +65,7 @@ export default function YouTobe() {
         {YouTobeArray &&
           YouTobeArray?.map((e) => (
             <YouTobeCard
+              key={e?.id}
               className={"new opacity-0"}
               img={e?.image}
               title={e?.title}

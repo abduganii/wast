@@ -83,22 +83,19 @@ export default function RecycleBox() {
             className="mb-[10px] text__recy1 opacity-0"
             style={{ color: "#FFF" }}
           >
-            {/* {t("Recycle")} */}
-            Lorem ipsum
+            {t("foaliyat")}
           </Title>
           <Text
             className={"mb-[30px] text__recy1 opacity-0"}
             style={{ color: "#B0FFC9" }}
           >
-            {t("RecycleText")}
+            {t("foaliyatText")}
           </Text>
-          <GreenBtn
-            className={"btn__recy1 opacity-0"}
-            style={{ color: "#00922F", background: "#FFF" }}
-          >
-            {/* {t("RecycleBtn")} */}
-            Download the presentation
-          </GreenBtn>
+
+          <a className="btn__recy1 opacity-0 py-4 px-8 inline-block justify-center align-center gap-[10px] bg-[#FFF] text-base font-medium text-[#00922F]" href={'/WastelessRU.pdf'} download="Wasteless_supernew_RU">{t('download')} </a>
+
+
+
         </div>
         <div className="abaut__image7 w-full max-w-[564px] aspect-video max-[800px]:w-full">
           <Image

@@ -46,35 +46,29 @@ export const ServiceArray = [
 ];
 export const YouTobeArray = [
   {
-    id: 1,
-    image: "/blogs/Artboard1.png",
-    title: "Leverage hiring forward",
-    text: "You sort waste (plastic, paper, glass)",
+    id: 11,
+    image: "https://www.youtube.com/embed/Tx8sE5mm2Uw?si=QZTMAbd2tLRDBO8X",
+    title: "Что Происходит с Пластиком?",
+    text: "Что Происходит с Пластиком? Учебный фильм",
   },
   {
-    id: 2,
-    image: "/blogs/Artboard2.png",
-    title: "Leverage hiring forward",
-    text: "Submit your application through the application",
+    id: 1,
+    image: "https://www.youtube.com/embed/5sbj0k0aGRA?si=mpr13xeTbpvu6Jmo",
+    title: "Как Спасют Мир от Пластика?",
+    text: "Как Спасют Мир от Пластика?",
   },
   {
     id: 3,
-    image: "/blogs/Artboard3.png",
-    title: "Leverage hiring forward",
-    text: "The courier arrives at the appointed time",
+    image: "https://www.youtube.com/embed/70W7C6Hnxys?si=TJKUtC7sQKRxEpX0",
+    title: "Как Человек Убивает Планету?",
+    text: "Как Человек Убивает Планету?",
   },
   {
     id: 4,
-    image: "/blogs/Artboard4.png",
-    title: "Leverage hiring forward",
-    text: "You get additional income, and waste - new life!",
-  },
-  {
-    id: 5,
-    image: "/blogs/Artboard4.png",
-    title: "Leverage hiring forward",
-    text: "You get additional income, and waste - new life!",
-  },
+    image: "https://www.youtube.com/embed/tluQ1frbFNo?si=N91DpRdABeCkVRxd",
+    title: "Как Правильно Сдавать Бутылку на Переработку?",
+    text: "Как Правильно Сдавать Бутылку на Переработку?",
+  }
 
 ];
 
