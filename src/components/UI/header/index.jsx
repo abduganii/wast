@@ -31,13 +31,13 @@ export default function Header({ lang }) {
         <Container>
           <div className={`${cls.Header__top} min-[900px]:flex hidden`}>
             <div className={cls.Header__icons}>
-              <a>
+              <a target="_blank" href="https://t.me/wastelessuz">
                 <Telegram />
               </a>
-              <a>
+              <a target="_blank" href="https://www.instagram.com/wasteless_uz?igsh=djdka3phaGJveDdi">
                 <Instagram />
               </a>
-              <a>
+              <a target="_blank" href="https://youtube.com/@gowasteless?si=18A2EiZrBY1mdgfL">
                 <TikTok />
               </a>
             </div>
@@ -63,19 +63,19 @@ export default function Header({ lang }) {
           <div className="flex gap-[20px] hidden max-[900px]:flex">
             <Lang />
             <div className={cls.Header__icons}>
-              <a>
+              <a target="_blank" href="https://t.me/wastelessuz">
                 <Telegram />
               </a>
-              <a>
+              <a target="_blank" href="https://www.instagram.com/wasteless_uz?igsh=djdka3phaGJveDdi">
                 <Instagram />
               </a>
-              <a>
+              <a target="_blank" href="https://youtube.com/@gowasteless?si=18A2EiZrBY1mdgfL">
                 <TikTok />
               </a>
             </div>
           </div>
         </Container>
-      </div>
+      </div >
     </>
   );
 }
