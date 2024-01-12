@@ -108,7 +108,7 @@ export const LogoIcon = () => {
       fill="none"
     >
       {" "}
-      <g clip-path="url(#clip0_236_175)">
+      <g clipPath="url(#clip0_236_175)">
         {" "}
         <path
           d="M48.3893 9.20898H52.0071L55.679 27.4489H56.1326L59.6856 9.20898H64.9594L68.6637 27.4489H69.1137L72.6379 9.20898H76.1046L71.7343 30.4859H66.1618L62.5475 13.0088H62.0975L58.6309 30.4859H52.9107L48.3893 9.20898Z"
@@ -147,26 +147,26 @@ export const LogoIcon = () => {
           fill="#111111"
         />{" "}
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M0 19.882C0 19.9219 0 19.9583 0 19.9982C0 20.0382 0 20.0781 0 20.1145C0.0611975 31.0671 8.84844 39.9346 19.702 39.9964C17.2829 39.9346 15.3426 37.9366 15.3426 35.4809C15.3426 32.9889 17.3477 30.9654 19.8172 30.9654C13.827 30.9654 8.97084 26.0794 8.94924 20.0418C8.94924 20.0418 8.94924 20.0127 8.94924 19.9982C8.94924 19.9982 8.94924 19.9692 8.94924 19.9546C8.92404 17.4807 6.92972 15.4827 4.47462 15.4827C2.04112 15.4827 0.0611975 17.4408 0 19.882Z"
           fill="url(#paint0_linear_236_175)"
         />{" "}
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M19.8171 30.9654C17.344 30.9654 15.3425 32.9888 15.3425 35.4809C15.3425 37.9729 17.2829 39.9346 19.702 39.9964C19.7416 39.9964 19.7812 39.9964 19.8171 39.9964C19.8567 39.9964 19.8927 39.9964 19.9323 39.9964C30.7859 39.9346 39.5732 31.0671 39.6344 20.1144C39.5732 22.5556 37.5932 24.5137 35.1597 24.5137C32.6902 24.5137 30.6851 22.4939 30.6851 19.9982C30.6851 26.0539 25.8181 30.9654 19.8171 30.9654Z"
           fill="url(#paint1_linear_236_175)"
         />{" "}
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M24.2918 4.51548C24.2918 6.99664 22.3119 9.00917 19.8604 9.03097C25.8433 9.05277 30.6851 13.9533 30.6851 19.9982C30.6851 22.4939 32.6902 24.5137 35.1597 24.5137C37.5932 24.5137 39.5732 22.5556 39.6344 20.1144C39.6344 20.0745 39.6344 20.0345 39.6344 19.9982C39.6344 19.9582 39.6344 19.9219 39.6344 19.8819C39.5732 8.92925 30.7859 0.0653892 19.9323 0C22.3515 0.0617564 24.2918 2.05976 24.2918 4.51548Z"
           fill="url(#paint2_linear_236_175)"
         />{" "}
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M19.702 0C8.84844 0.0653892 0.0611975 8.92925 0 19.8819C0.0611975 17.4407 2.04112 15.4827 4.47462 15.4827C6.92972 15.4827 8.92404 17.4807 8.94924 19.9546C8.97084 13.9315 13.8054 9.05277 19.774 9.03097C19.774 9.03097 19.8028 9.03097 19.8172 9.03097C19.8172 9.03097 19.846 9.03097 19.8604 9.03097C22.3119 9.00917 24.2918 6.99664 24.2918 4.51548C24.2918 2.03433 22.3515 0.0653892 19.9324 0C19.8928 0 19.8568 0 19.8172 0C19.7776 0 19.7416 0 19.702 0Z"
           fill="url(#paint3_linear_236_175)"
         />{" "}
@@ -182,7 +182,7 @@ export const LogoIcon = () => {
           gradientUnits="userSpaceOnUse"
         >
           {" "}
-          <stop stop-color="#45B549" /> <stop offset="1" stop-color="#098342" />{" "}
+          <stop stopColor="#45B549" /> <stop offset="1" stopColor="#098342" />{" "}
         </linearGradient>{" "}
         <linearGradient
           id="paint1_linear_236_175"
@@ -193,7 +193,7 @@ export const LogoIcon = () => {
           gradientUnits="userSpaceOnUse"
         >
           {" "}
-          <stop stop-color="#45B549" /> <stop offset="1" stop-color="#098342" />{" "}
+          <stop stopColor="#45B549" /> <stop offset="1" stopColor="#098342" />{" "}
         </linearGradient>{" "}
         <linearGradient
           id="paint2_linear_236_175"
@@ -204,7 +204,7 @@ export const LogoIcon = () => {
           gradientUnits="userSpaceOnUse"
         >
           {" "}
-          <stop stop-color="#45B549" /> <stop offset="1" stop-color="#098342" />{" "}
+          <stop stopColor="#45B549" /> <stop offset="1" stopColor="#098342" />{" "}
         </linearGradient>{" "}
         <linearGradient
           id="paint3_linear_236_175"
@@ -215,7 +215,7 @@ export const LogoIcon = () => {
           gradientUnits="userSpaceOnUse"
         >
           {" "}
-          <stop stop-color="#45B549" /> <stop offset="1" stop-color="#098342" />{" "}
+          <stop stopColor="#45B549" /> <stop offset="1" stopColor="#098342" />{" "}
         </linearGradient>{" "}
         <clipPath id="clip0_236_175">
           {" "}
@@ -236,7 +236,7 @@ export const Person = () => {
       fill="none"
     >
       {" "}
-      <g clip-path="url(#clip0_245_11)">
+      <g clipPath="url(#clip0_245_11)">
         {" "}
         <path
           d="M13.3334 21.3334V28"
@@ -302,7 +302,7 @@ export const Photo = () => {
       fill="none"
     >
       {" "}
-      <g clip-path="url(#clip0_245_19)">
+      <g clipPath="url(#clip0_245_19)">
         {" "}
         <path
           d="M12 16C12 17.0609 12.4214 18.0783 13.1716 18.8284C13.9217 19.5786 14.9391 20 16 20C17.0609 20 18.0783 19.5786 18.8284 18.8284C19.5786 18.0783 20 17.0609 20 16C20 14.9391 19.5786 13.9217 18.8284 13.1716C18.0783 12.4214 17.0609 12 16 12C14.9391 12 13.9217 12.4214 13.1716 13.1716C12.4214 13.9217 12 14.9391 12 16Z"
@@ -354,7 +354,7 @@ export const Reflesh = () => {
       fill="none"
     >
       {" "}
-      <g clip-path="url(#clip0_245_25)">
+      <g clipPath="url(#clip0_245_25)">
         {" "}
         <path
           d="M15.9999 22.6666L13.3333 25.3333L15.9999 28"

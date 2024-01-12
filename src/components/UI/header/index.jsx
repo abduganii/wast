@@ -11,7 +11,6 @@ const langArr = {
   text: { uz: "Uzb", ru: "Ру", en: "En" }
 }
 
-
 export default function Header({ lang }) {
 
   const [windowHeight, setWindowHeight] = useState(

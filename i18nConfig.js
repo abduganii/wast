@@ -1,6 +1,5 @@
 const i18nConfig = {
   defaultLocale: "uz",
- 
   locales: [ "en", "ru" ,"uz"],
 };
 
