@@ -43,7 +43,7 @@ export default function Footer({ lang }) {
                             <Link className={cls.Footer__left__logo} href={'/'}>
                                 <LogoIcon />
                             </Link>
-                            <p className={cls.Footer__text}>{t('Wasstext')}</p>
+                            <p className={cls.Footer__text} suppressHydrationWarning={true}>{t('Wasstext')}</p>
                         </div>
                         <p className={cls.Footer__Wasteless}>© Wasteless 2023</p>
                     </div>

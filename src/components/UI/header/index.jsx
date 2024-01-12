@@ -1,16 +1,19 @@
-"use client";
-import initTranslations from "@/app/i18n";
+'use client';
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
 import Container from "../container";
 import { Instagram, LogoIcon, Telegram, TelIcon, TikTok } from "../icon";
 import Lang from "../lang";
 import NavBar from "../nav-bar";
 import cls from "./header.module.scss";
 
+const langArr = {
+  text: { uz: "Uzb", ru: "Ру", en: "En" }
+}
+
+
 export default function Header({ lang }) {
-  const { t } = useTranslation(['home']);
+
   const [windowHeight, setWindowHeight] = useState(
     typeof window !== "undefined" ? window.scrollY : 0
   );
@@ -25,6 +28,7 @@ export default function Header({ lang }) {
       return () => window.removeEventListener("scroll", getWindowHeight);
     }
   }, []);
+
   return (
     <>
       <header className={cls.Header}>
@@ -43,7 +47,9 @@ export default function Header({ lang }) {
             </div>
 
             <div className={cls.Header__set}>
-              <Lang />
+              <Lang >
+                {lang ? langArr.text[`${lang}`] : "Uzb"}
+              </Lang>
               <a className={cls.Header__tel}>
                 <TelIcon /> +998 50 505 14 33
               </a>
@@ -61,7 +67,9 @@ export default function Header({ lang }) {
           </Link>
           <NavBar lang={lang} className={"min-[900px]:flex hidden"} />
           <div className="flex gap-[20px] hidden max-[900px]:flex">
-            <Lang />
+            <Lang >
+              {lang ? langArr.text[`${lang}`] : "Uzb"}
+            </Lang>
             <div className={cls.Header__icons}>
               <a target="_blank" href="https://t.me/wastelessuz">
                 <Telegram />
