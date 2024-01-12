@@ -3,15 +3,19 @@ import BlogsCard from '@/components/UI/card/blog-card'
 import Container from '@/components/UI/container'
 import { BlogsArray } from '@/data'
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 import { useEffect } from "react";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import gsap from "gsap";
 import { useTranslation } from 'react-i18next'
 import { useRouter } from 'next/navigation'
 
+
 export default function BlogsPage({ lang, id }) {
     const { t } = useTranslation(['home']);
+    const [isClient, setIsClient] = useState(false);
+
+
     const oneBlog = BlogsArray.find(e => e?.id == id)
     const router = useRouter()
     gsap.registerPlugin(ScrollTrigger);
@@ -56,15 +60,19 @@ export default function BlogsPage({ lang, id }) {
                 },
             }
         );
+        setIsClient(true);
     }, []);
     return (
-        <Container className='flex gap-[32px] flex-wrap sm:flex-nowrap bloghome'>
-            <div className=' w-full max-w-[862px] mt-[32px]'>
+        <Container className='flex gap-[32px] flex-wrap sm:flex-nowrap  bloghome'>
+            <div className=' w-full max-w-[862px] mt-[32px] mb-[100px]'>
                 <Image className='rounded-[16px] object-cover title222 opacity-0' src={oneBlog?.image} width={862} height={567} alt="img" />
                 <h3 className='title222 text-3xl mt-[20px] mb-[20px] font-medium opacity-0'>{oneBlog?.title}</h3>
-                <p className='title222 text-lg  font-normal text-[#475467] opacity-0'>{oneBlog?.text}</p>
+                <div className='title222 opacity-0'>
+                    {isClient ? <p className='textblog text-lg  font-normal text-[#475467]' dangerouslySetInnerHTML={{ __html: oneBlog?.text }} /> : null}
+                </div>
+
             </div>
-            <div className=' w-full max-w-[266px]  mt-[32px]  h-full' >
+            <div className=' w-full max-w-[266px]  mt-[32px]  h-full mb-[100px]' >
                 <h3 className='title222 text-lg mb-[20px] font-semibold opacity-0'>{t('more')}</h3>
                 {BlogsArray &&
                     BlogsArray?.slice(0, 4)?.map((e) => (

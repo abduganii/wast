@@ -1,6 +1,8 @@
+'use client'
 import Image from "next/image";
 import cls from "./blog.module.scss";
 import { DateIcons } from "../../icon";
+import { useEffect, useState } from "react";
 export default function BlogsCard({
   img,
   className,
@@ -10,6 +12,11 @@ export default function BlogsCard({
   onClick,
   ...other
 }) {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
   return (
     <div
       className={`${cls.BlogsCard} ${className && className} w-full`}
@@ -24,7 +31,7 @@ export default function BlogsCard({
         src={img}
       />
       <h3 className={`${cls.BlogsCard__title} line-clamp-2`}>{title}</h3>
-      <p className={`${cls.BlogsCard__text} line-clamp-2`} >{text}</p>
+      {isClient ? <p className={`${cls.BlogsCard__text} line-clamp-2`} dangerouslySetInnerHTML={{ __html: text }} /> : null}
       <p className={cls.BlogsCard__date}>
         <DateIcons /> {date}
       </p>
