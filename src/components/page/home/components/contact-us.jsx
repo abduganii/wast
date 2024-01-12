@@ -79,6 +79,7 @@ export default function ContactUs() {
                             src={'/image/QRCode.png'}
                             width={256}
                             height={256}
+                            alt="img"
                         />
                     </div>
 

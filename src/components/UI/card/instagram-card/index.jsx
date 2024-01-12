@@ -1,9 +1,17 @@
-
-import React from 'react';
+"use client"
+import Script from 'next/script';
+import React, { Fragment } from 'react';
 
 const InstagramWidget = () => {
     return (
-        <>
+        <Fragment>
+            <Script src="https://www.instagram.com/embed.js"
+                onLoad={() => {
+                    console.log('Script has loaded')
+                }} />   <Script src="https://www.embedista.com/j/instagramfeed.js"
+                    onLoad={() => {
+                        console.log('Script has loaded')
+                    }} />
             <blockquote className="instagram-media" data-instgrm-permalink="https://www.instagram.com/wasteless_uz/"
                 data-instgrm-version="12"
                 style={
@@ -21,7 +29,7 @@ const InstagramWidget = () => {
                         maxHeight: '100%',
                     }
                 }>
-                <div style={{ padding: '16px' }}> <a id="main_link" href="wasteless_uz"
+                <div style={{ padding: '16px' }}> <a id="main_link" href="https://www.instagram.com/wasteless_uz/"
                     style={{
                         background: '#FFFFFF',
                         lineHeight: '0',
@@ -225,7 +233,7 @@ const InstagramWidget = () => {
                         textOverflow: 'ellipsis',
                         whiteSpace: 'nowrap',
                     }}>
-                        <a href="wasteless_uz" style={{
+                        <a href="https://www.instagram.com/wasteless_uz/" style={{
                             color: '#c9c8cd',
                             fontFamily: 'Arial, sans-serif',
                             fontSize: '14px',
@@ -242,8 +250,10 @@ const InstagramWidget = () => {
                 </div>
             </blockquote >
 
-        </>
+        </Fragment>
     );
 };
+
+
 
 export default InstagramWidget;

@@ -9,6 +9,7 @@ export default function WorkProgress({ lang }) {
                 src={lang == "ru" ? '/image/Wasteless11.png' : "/image/Wasteless12.png"}
                 width={1920}
                 height={1016}
+                alt="img"
             />
         </div>
     )

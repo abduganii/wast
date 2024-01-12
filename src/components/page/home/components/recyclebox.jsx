@@ -104,8 +104,7 @@ export default function RecycleBox() {
             src={"/image/Rectangle1.png"}
             width={564}
             height={366}
-            // layout="fill"
-            objectFit="cover"
+
             alt="Picture"
           />
         </div>

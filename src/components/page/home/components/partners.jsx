@@ -56,6 +56,7 @@ export default function Partners() {
                         src={'/image/partnors.png'}
                         width={1000}
                         height={"279"}
+                        alt="img"
                     />
                 </div>
             </div>

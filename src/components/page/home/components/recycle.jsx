@@ -67,7 +67,7 @@ export default function Recycle() {
                         width={564}
                         height={366}
                         // layout="fill"
-                        objectFit='cover'
+
                         alt="Picture"
                     />
                 </div>

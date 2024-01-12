@@ -70,6 +70,7 @@ export default function Hero() {
                         height={480}
                         src={'/image/botton.png'}
                         alt={"image"}
+
                     />
                 </div>
             </div>

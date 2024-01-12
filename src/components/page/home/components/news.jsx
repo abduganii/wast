@@ -26,7 +26,7 @@ const News = () => {
           </Text>
         </div>
         <div className="w-full max-w-[564px]">
-          {/* <Image src={"/image/insta.png"} width={564} height={581} /> */}
+          {/* <Image src={"/image/insta.png"} width={564} height={581}  alt="img"/> */}
           <InstagramWidget />
         </div>
       </div>

@@ -241,44 +241,44 @@ export const Person = () => {
         <path
           d="M13.3334 21.3334V28"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M18.6666 21.3334V28"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M10.6666 21.3333H21.3333L18.6666 12H13.3333L10.6666 21.3333Z"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M6.66663 14.6667C8.88929 12.8893 11.1106 12 13.3333 12"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M25.3333 14.6667C23.1106 12.8893 20.8893 12 18.6666 12"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M13.3334 5.33329C13.3334 6.04054 13.6143 6.71881 14.1144 7.21891C14.6145 7.71901 15.2928 7.99996 16 7.99996C16.7073 7.99996 17.3856 7.71901 17.8857 7.21891C18.3858 6.71881 18.6667 6.04054 18.6667 5.33329C18.6667 4.62605 18.3858 3.94777 17.8857 3.44767C17.3856 2.94758 16.7073 2.66663 16 2.66663C15.2928 2.66663 14.6145 2.94758 14.1144 3.44767C13.6143 3.94777 13.3334 4.62605 13.3334 5.33329Z"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
       </g>{" "}
       <defs>
@@ -307,30 +307,30 @@ export const Photo = () => {
         <path
           d="M12 16C12 17.0609 12.4214 18.0783 13.1716 18.8284C13.9217 19.5786 14.9391 20 16 20C17.0609 20 18.0783 19.5786 18.8284 18.8284C19.5786 18.0783 20 17.0609 20 16C20 14.9391 19.5786 13.9217 18.8284 13.1716C18.0783 12.4214 17.0609 12 16 12C14.9391 12 13.9217 12.4214 13.1716 13.1716C12.4214 13.9217 12 14.9391 12 16Z"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M4 10.6667C4 9.95942 4.28095 9.28115 4.78105 8.78105C5.28115 8.28095 5.95942 8 6.66667 8H25.3333C26.0406 8 26.7189 8.28095 27.219 8.78105C27.719 9.28115 28 9.95942 28 10.6667V21.3333C28 22.0406 27.719 22.7189 27.219 23.219C26.7189 23.719 26.0406 24 25.3333 24H6.66667C5.95942 24 5.28115 23.719 4.78105 23.219C4.28095 22.7189 4 22.0406 4 21.3333V10.6667Z"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M24 16H24.0133"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M8 16H8.01333"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
       </g>{" "}
       <defs>
@@ -359,44 +359,44 @@ export const Reflesh = () => {
         <path
           d="M15.9999 22.6666L13.3333 25.3333L15.9999 28"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M13.3333 25.3334H25.3333C25.7581 25.3115 26.1715 25.1883 26.5389 24.974C26.9064 24.7598 27.2173 24.4608 27.4457 24.1019C27.6741 23.743 27.8133 23.3347 27.8517 22.9111C27.8901 22.4875 27.8267 22.0608 27.6666 21.6667L26.9333 20.3334"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M11.3814 14.6667L10.4054 11.024L6.7627 12"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M10.4054 11.024L4.4054 21.416C4.21212 21.7948 4.11222 22.2143 4.11404 22.6395C4.11585 23.0647 4.21933 23.4834 4.41584 23.8605C4.61235 24.2376 4.89619 24.5622 5.24368 24.8073C5.59116 25.0524 5.99222 25.2108 6.4134 25.2694L7.93473 25.3014"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M20.6187 14.6667L24.2613 15.6427L25.2373 12"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
         <path
           d="M24.2614 15.6427L18.2614 5.25067C18.03 4.89392 17.7165 4.5977 17.3473 4.38672C16.9781 4.17574 16.5637 4.05613 16.1389 4.03786C15.714 4.01959 15.2909 4.1032 14.905 4.28171C14.519 4.46021 14.1813 4.72844 13.9201 5.064L13.1321 6.36534"
           stroke="#00922F"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />{" "}
       </g>{" "}
       <defs>

@@ -1,4 +1,4 @@
-
+'use client';
 import { useRouter } from 'next/navigation';
 import { usePathname } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
@@ -27,7 +27,11 @@ export default function Lang({ children }) {
 
         // redirect to the new locale path
 
-        router.push('/' + newLocale);
+        // router.push('/' + newLocale + currentPathname);
+        router.push(
+            currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
+        )
+
         // if (
         //     currentLocale == i18nConfig.defaultLocale &&
         //     !i18nConfig.prefixDefault
