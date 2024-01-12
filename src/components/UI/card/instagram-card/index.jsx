@@ -4,7 +4,7 @@ import React from 'react';
 const InstagramWidget = () => {
     return (
         <>
-            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/wasteless_uz/"
+            <blockquote className="instagram-media" data-instgrm-permalink="https://www.instagram.com/wasteless_uz/"
                 data-instgrm-version="12"
                 style={
                     {
